@@ -7,16 +7,24 @@ const mouseDot = document.querySelector(".mouse-dot");
 
 const mouseCircleFn = (x, y) => {
 
-    mouseCircle.style.cssText = `top: ${y}px; left: ${x}px`;
+    mouseCircle.style.cssText = `top: ${y}px; left: ${x}px; opacity:1`;
 
-    mouseDot.style.cssText = `top: ${y}px; left: ${x}px`;
+    mouseDot.style.cssText = `top: ${y}px; left: ${x}px; opacity:1`;
 };
 
 document.body.addEventListener("mousemove", (e) => {
-  let x = e.clientX;
-  let y = e.clientY;
+    let x = e.clientX;
+    let y = e.clientY;
 
-  mouseCircleFn(x,y)
+    mouseCircleFn(x, y)
+
+
+});
+
+// when the mouse leave the doc change default pointer
+document.body.addEventListener("mouseleave", () => {
+    mouseCircle.style.opacity = "0";
+    mouseDot.style.opacity = "0";
 });
 
 
