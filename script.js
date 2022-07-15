@@ -13,7 +13,10 @@ const mouseCircleFn = (x, y) => {
 };
 
 document.body.addEventListener("mousemove", (e) => {
-    console.log('moved');
+  let x = e.clientX;
+  let y = e.clientY;
+
+  mouseCircleFn(x,y)
 });
 
 
