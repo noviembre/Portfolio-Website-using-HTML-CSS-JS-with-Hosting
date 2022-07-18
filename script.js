@@ -38,10 +38,19 @@ let mY = 0;
 
 const animateCircles = (e, x, y) => {
     if (x < mX) {
-        console.log('move to the left');
+        circles.forEach((circle) => {
+            circle.style.left = `100px`;
+        });
+
+        mainImg.style.left = `100px`;
     }
+
     if (y < mX) {
-        console.log('move upwards');
+        circles.forEach((circle) => {
+            circle.style.top = `100px`;
+        });
+
+        mainImg.style.top = `100px`;
     }
 
     mX = e.clientX;

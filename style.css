@@ -161,7 +161,7 @@ html {
     align-self: center;
     justify-self: center;
     opacity: 0.5;
-    /*position: relative;*/
+    position: relative;
     /*top: 0;*/
     /*left: 0;*/
     /*transition: left 2s, top 2s;*/
@@ -215,7 +215,7 @@ html {
 
 .main-circle img {
     mix-blend-mode: color-dodge;
-    /*position: relative;*/
+    position: relative;
     /*top: 0;*/
     /*left: 0;*/
     /*transition: left 2s, top 2s;*/
