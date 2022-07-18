@@ -162,9 +162,9 @@ html {
     justify-self: center;
     opacity: 0.5;
     position: relative;
-    /*top: 0;*/
-    /*left: 0;*/
-    /*transition: left 2s, top 2s;*/
+    top: 0;
+    left: 0;
+    transition: left 2s, top 2s;
 }
 
 .circle-1 {
@@ -205,7 +205,7 @@ html {
     position: absolute;
     overflow: hidden;
     border-radius: 50%;
-    /*transition: width 0.2s, height 0.2s;*/
+    transition: width 0.2s, height 0.2s;
 }
 
 .main-circle:hover {
@@ -216,8 +216,8 @@ html {
 .main-circle img {
     mix-blend-mode: color-dodge;
     position: relative;
-    /*top: 0;*/
-    /*left: 0;*/
+    top: 0;
+    left: 0;
     /*transition: left 2s, top 2s;*/
 }
 /* End of Animated Circles */
