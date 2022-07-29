@@ -39,7 +39,7 @@ html {
     z-index: 300;
     transform: translate(-50%, -50%);
     opacity: 0;
-    /*pointer-events: none;*/
+    pointer-events: none;
 }
 .mouse-circle {
     width: 6rem;
@@ -172,7 +172,7 @@ html {
     background-size: cover;
     background-clip: content-box;
     border: 0.5rem dotted #a14b1a;
-    /*margin-left: -10rem;*/
+    margin-left: -10rem;
 }
 
 .circle-2 {
@@ -180,7 +180,7 @@ html {
     background-size: cover;
     background-clip: content-box;
     border: 0.5rem dashed #ffbd07;
-    /*margin-right: -10rem;*/
+    margin-right: -10rem;
 }
 
 .circle-3 {
@@ -188,7 +188,7 @@ html {
     background-size: cover;
     background-clip: content-box;
     border: 1rem double #9b0e0e;
-    /*margin-left: -10rem;*/
+    margin-left: -10rem;
 }
 
 .circle-4 {
@@ -196,7 +196,7 @@ html {
     background-size: cover;
     background-clip: content-box;
     border: 0.7rem double #fff;
-    /*margin-right: -10rem;*/
+    margin-right: -10rem;
 }
 
 .main-circle {
@@ -209,8 +209,8 @@ html {
 }
 
 .main-circle:hover {
-    /*width: 75rem;*/
-    /*height: 75rem;*/
+    width: 75rem;
+    height: 75rem;
 }
 
 .main-circle img {
